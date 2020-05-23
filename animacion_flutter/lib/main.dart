@@ -11,20 +11,17 @@ class _MyAppState extends State<MyApp> {
   bool _buttonPressed = false;
   bool _loopActive = false;
 
-  void _increaseCounterWhilePressed() async {
-    // make sure that only one loop is active
+  void _WhilePressed() async {
     if (_loopActive) return;
 
     _loopActive = true;
 
     while (_buttonPressed) {
-      // do your thing
       setState(() {
         _buttonPressed = true;
       });
 
-      // wait a bit
-      await Future.delayed(Duration(milliseconds: 200));
+      await Future.delayed(Duration(milliseconds: 100));
     }
 
     _loopActive = false;
@@ -44,7 +41,7 @@ class _MyAppState extends State<MyApp> {
         floatingActionButton: Listener(
           onPointerDown: (details) {
             _buttonPressed = true;
-            _increaseCounterWhilePressed();
+            _WhilePressed();
           },
           onPointerUp: (details) {
             _buttonPressed = false;
