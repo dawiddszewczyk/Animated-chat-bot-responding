@@ -6,7 +6,7 @@
 
 ## General info
 This project include simple animation.
-Which is used in chatbot. It is responsible for responding…
+Which is used in chatbot.The button is a simulation of the user writing.
 	
 ## Technologies
 Project is created with:
