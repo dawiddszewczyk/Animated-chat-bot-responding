@@ -20,10 +20,10 @@ Project is created with:
 ```
 ## Pictures
 
-<img src="https://user-images.githubusercontent.com/58904662/82741997-ef8e8880-9d58-11ea-994a-ea142e7dd2c5.gif" width="30%">
+<img src="https://user-images.githubusercontent.com/58904662/82803696-47c0aa00-9e81-11ea-9c3a-b5e643308afd.gif" width="30%">
 
 
-<img src="https://user-images.githubusercontent.com/58904662/82742001-0634df80-9d59-11ea-82b0-3bfff509420f.gif" width="30%">
+<img src="https://user-images.githubusercontent.com/58904662/82803764-6161f180-9e81-11ea-900c-8c384869a13d.png" width="30%">
 
 ## Designer
 ```
