@@ -79,7 +79,7 @@ class _TypedState extends State<Typed> with TickerProviderStateMixin{
           Row(
             children: <Widget>[
               Padding(
-                padding: EdgeInsets.only(top: 8,left: 8,bottom: 12),
+                padding: EdgeInsets.only(top: 8,left: 8,bottom: 14),
                 child: Column(
                   children: <Widget>[
                     Container(
@@ -117,12 +117,13 @@ class _TypedState extends State<Typed> with TickerProviderStateMixin{
                 padding: EdgeInsets.only(top:12),
                 child: Column(
                   children: <Widget>[
+                    // Red small container to delete
                     Container(
                       transform: Matrix4.translationValues(-100.0, 0.0, 0.0),
                     height: 1,
                     width: 300,
                       color: Colors.red,
-                    ),
+                    ), // ->> Red
                     Container(
                       transform: Matrix4.translationValues(-50.0, 0.0, 0.0),
                       width: 200,
@@ -144,12 +145,13 @@ class _TypedState extends State<Typed> with TickerProviderStateMixin{
                         ),
                       ),
                     ),
+                    // Red small container to delete
                     Container(
                       transform: Matrix4.translationValues(-100.0, 0.0, 0.0),
                       height: 1,
                       width: 300,
                       color: Colors.red,
-                    ),
+                    ),// ->> Red
                   ],
                 ),
               ),
